@@ -1,0 +1,45 @@
+.navar{
+    /* Ancho */
+    width: 100%;
+}
+
+
+.imagenlogo{
+    width: 220px;
+}
+
+.lista{
+    background: purple;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lista li{
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+
+.lista li a{
+    color: white;
+}
+
+.quees{
+    width: 100%;
+}
+
+.texto{
+    width: 49%;
+    text-align: justify;
+    display: inline-block;
+}
+
+.queesimagen{
+    width: 49%;
+    display: inline-block;
+}
+
+.queesimagen img{
+    width: 100%;
+}
