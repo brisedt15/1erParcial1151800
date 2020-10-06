@@ -7,6 +7,11 @@
 .imagenlogo{
     width: 220px;
 }
+.cabecera{
+    width: 49%;
+    text-align: justify;
+    display: inline-block;
+}
 
 .lista{
     background: purple;
@@ -25,7 +30,8 @@
     color: white;
 }
 
-.quees{
+
+.quees {
     width: 100%;
 }
 
