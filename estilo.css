@@ -7,11 +7,6 @@
 .imagenlogo{
     width: 220px;
 }
-.cabecera{
-    width: 49%;
-    text-align: justify;
-    display: inline-block;
-}
 
 .lista{
     background: purple;
@@ -30,9 +25,16 @@
     color: white;
 }
 
-
-.quees {
+.quees{
     width: 100%;
+}
+
+.boton{
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+    background: cornflowerblue;
 }
 
 .texto{
@@ -48,4 +50,71 @@
 
 .queesimagen img{
     width: 100%;
+}
+
+.sintomas1, .sintomas2{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.sintomas1 img, .sintomas2 img{
+    width: 49%;
+}
+
+.textosintomas1, .textosintomas2{
+    width: 49%;
+}
+.comocuidarnos{
+    width: 100%;
+    align-items: center;
+display: flex;
+
+}
+
+.textocomocuidarnos{
+    width: 50%;
+}
+
+.comocuidarnos img{
+    width: 50%;
+}
+
+footer{
+    background: rgb(0, 0, 41);
+}
+
+.ulsenlaces{
+    justify-content: space-between;
+    display: flex;
+}
+
+.ulsenlaces h2{
+    color: white;
+}
+
+.ulsenlaces a{
+    color: #29abe2;
+}
+
+.footernombre{
+    text-align: center;
+    color: white;
+}
+
+.informacioncontacto{
+    color: white;
+}
+
+table, thead, th, td{
+    border: 1px solid gray;
+}
+
+table{
+    width: 100%;
+}
+
+thead{
+    background: rgb(124, 195, 195);
 }
